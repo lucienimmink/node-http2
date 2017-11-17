@@ -1,17 +1,17 @@
 {
   "name": "http2",
-  "version": "3.3.7",
+  "version": "3.3.8",
   "description": "An HTTP/2 client and server implementation",
   "main": "lib/index.js",
-  "engines" : {
-    "node" : ">=0.12.0 <9.0.0"
+  "engines": {
+    "node": ">=0.12.0 <9.0.0"
   },
   "devDependencies": {
-    "istanbul": "*",
-    "chai": "*",
-    "mocha": "*",
-    "docco": "*",
-    "bunyan": "*"
+    "istanbul": "^0.4.5",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "docco": "^0.7.0",
+    "bunyan": "^1.8.12"
   },
   "scripts": {
     "test": "istanbul test _mocha -- --reporter spec --slow 500 --timeout 15000",
@@ -19,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/molnarg/node-http2.git"
+    "url": "https://github.com/lucienimmink/node-http2.git"
   },
-  "homepage": "https://github.com/molnarg/node-http2",
+  "homepage": "https://github.com/lucienimmink/node-http2",
   "bugs": {
-    "url": "https://github.com/molnarg/node-http2/issues"
+    "url": "https://github.com/lucienimmink/node-http2/issues"
   },
   "keywords": [
     "http",
@@ -39,7 +39,8 @@
     "Igor Novikov",
     "James Willcox",
     "David Björklund",
-    "Patrick McManus"
+    "Patrick McManus",
+    "Lucien Immink"
   ],
   "license": "MIT",
   "readmeFilename": "README.md"
