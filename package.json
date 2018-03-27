@@ -1,7 +1,7 @@
 {
-  "name": "http2",
-  "version": "3.3.8",
-  "description": "An HTTP/2 client and server implementation",
+  "name": "http2e",
+  "version": "3.3.9",
+  "description": "An HTTP/2 client and server implementation for express",
   "main": "lib/index.js",
   "engines": {
     "node": ">=0.12.0 <9.0.0"
