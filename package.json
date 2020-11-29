@@ -4,14 +4,14 @@
   "description": "An HTTP/2 client and server implementation for express",
   "main": "lib/index.js",
   "engines": {
-    "node": ">=0.12.0 <9.0.0"
+    "node": ">=0.12.0"
   },
   "devDependencies": {
-    "istanbul": "^0.4.5",
+    "bunyan": "^1.8.12",
     "chai": "^4.1.2",
-    "mocha": "^4.0.1",
     "docco": "^0.7.0",
-    "bunyan": "^1.8.12"
+    "istanbul": "^0.4.5",
+    "mocha": "^8.2.1"
   },
   "scripts": {
     "test": "istanbul test _mocha -- --reporter spec --slow 500 --timeout 15000",
